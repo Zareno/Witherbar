@@ -1,0 +1,5 @@
+name: Witherbar
+main: nl.marido.witherbar.Resource
+version: 1.1
+author: Marido
+description: Witherbar is an useful liberary to create and edit bossbars on your server.
