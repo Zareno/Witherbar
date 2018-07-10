@@ -24,8 +24,3 @@ example.setProgess(0.5);
 # Returns a boolean if a player can see the bossbar.
 example.hasPlayer(player);
 ```
-</br>
-  
-## Credits
-**Marido** for updating and resolving issues in the Witherbar class.
-**Fr33stylerR0** for adding the basic stuff to the Witherbar class.
