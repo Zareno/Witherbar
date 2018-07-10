@@ -4,22 +4,22 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import nl.marido.witherbar.handlers.Updater;
 
-public class Resource extends JavaPlugin {
+public class Witherbar extends JavaPlugin {
 
-	public static Resource instance;
+	public static Witherbar instance;
 
 	public void onEnable() {
-		System.out.println("Thank you for using the Witherbar resource.");
 		instance = this;
+		System.out.println("Thank you for using the Witherbar resource.");
 		saveDefaultConfig();
-		Updater.runUpdate();
+		Updater.runChecks();
 	}
 
 	public void onDisable() {
 		System.out.println("Thank you for using the Witherbar resource.");
 	}
 
-	public static Resource getInstance() {
+	public static Witherbar getInstance() {
 		return instance;
 	}
 
