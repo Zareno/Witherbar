@@ -39,7 +39,6 @@ public class Witherbar extends BukkitRunnable {
 			Class<?> packetentinitylivingout = getNmsClass("PacketPlayOutSpawnEntityLiving");
 			Object packet = packetentinitylivingout.getConstructor(getNmsClass("EntityLiving")).newInstance(wither);
 			Class<?> craftplayerclass = getObcClass("entity.CraftPlayer");
-			System.out.println(craftplayerclass);
 			Object craftplayer = craftplayerclass.cast(player);
 			Object entityplayer = craftplayerclass.getMethod("getHandle").invoke(craftplayer);
 			Class<?> packetclass = getNmsClass("Packet");
