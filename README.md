@@ -1,5 +1,6 @@
 ## Witherbar
-Witherbar is an amazing useful updated stable liberary to create and edit bossbars on your server that does not bring any lag or issues to your server and the compiled version can be downloaded from the official SpigotMC resource page of Witherbar.
+Witherbar is an amazing useful updated stable library to create and edit bossbars on your server that does not bring any lag or issues to your server and the compiled version can be downloaded from the official Spigot resource thread of Witherbar.</br>
+Witherbar does now use Reflection to make every server version compatible with it thanks to the awesome nice contributors.
 > **Tip:**  Use the new built-in Spigot methods for bossbars if you are using the latest version of Spigot.
 </br>
  

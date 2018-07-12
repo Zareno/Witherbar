@@ -1,5 +1,5 @@
 name: Witherbar
-main: nl.marido.witherbar.Resource
-version: 1.3
+main: nl.marido.witherbar.Witherbar
+version: 1.4
 author: Marido
 description: Witherbar is an useful library to create and edit bossbars on your server.
